@@ -1,0 +1,84 @@
+body{
+    background-image: url('./image/pexels-fotoaibe-1669799.jpg');
+    
+    background-size: cover;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+#links{
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+}
+
+#head{
+    color:black;
+    background-color: rgba(0, 0, 0, .05);
+    border-radius: 20px;
+}
+
+a{
+    position: relative;
+    top: 20px;
+    color: white;
+    padding:.2rem 1.5rem;
+    border-radius: 10px;
+   
+    text-decoration: none;
+
+    font-size: large;   
+    z-index: 3;
+}
+a:hover{
+    border-bottom: 2px solid white;
+}
+
+h1{
+    font-size: 45px;
+}
+p{
+    position: relative;
+    left: 80px;
+}
+
+
+#icon{
+    
+   width: 100px;
+   height: 90px;
+   
+   border-radius: 10px;
+   padding: 0.1rem 0.2rem;
+   display: inline-block;
+
+}
+#icon img{
+    font-size: 100px;
+}
+#body{
+    position:absolute;
+    margin-top: 150px;
+    left: 500px;
+    color:white;
+    background-color: rgba(0, 0, 0, .05);
+    border-radius: 30px;
+}
+
+
+button{
+   position: relative;
+    
+    left: 130px;
+    margin: 2px;
+    padding: 0.5rem 0.5rem;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+button:hover{
+    background-color: rgb(192, 169, 169);
+
+}
